@@ -1,0 +1,399 @@
+#main{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 30px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1e3932;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.find-store {
+  color: #1e3932;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sign-in {
+  background: transparent;
+  border: 1px solid #1e3932;
+  color: #1e3932;
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.join-now {
+  background: #00754a;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign-in:hover,
+.join-now:hover {
+  opacity: 0.85;
+}
+
+#first{
+    height: 654px;
+    background-color:white;
+    width: auto;
+    display :flex;
+    padding-bottom: 30px;
+}
+.image-cover{
+    width: 100%;              
+    height: 654px;
+    background-image: url(starbucksCoffee1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.secondimage{
+    width: 100%;              
+    height: 654px;
+    background-image: url(starb2.webp);
+    background-size: cover;
+    background-position: center;
+}
+.thirdimage{
+    width: 100%;              
+    height: 654px;
+    background-image: url(starb4.webp);
+    background-size: cover;
+    background-position: center;
+}
+.fourthimage{
+    width: 100%;              
+    height: 654px;
+    background-image: url(starb5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fifthimage{
+    width: 100%;              
+    height: 654px;
+    background-image: url(st.webp);
+    background-size: cover;
+    background-position: center;
+}
+#first > #right{
+    height: 100%;
+    width: 50%;
+    background-color: #32462f;
+    
+}
+#insidebox{
+    height: 500px;
+    width: 500px;
+    padding-left: 100px;
+    font-weight: 100;
+}
+#first > #right > #insidebox >#firstp >p{
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+#first > #right > #insidebox >#secondp> p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}#first > #right > #insidebox > button{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #32462f;
+    border-style: none;
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 150px;
+}
+#first > #left{
+    height: 70%;
+    width: 50%;
+}
+#second{
+    height: 654px;
+    background-color: white;
+    width: auto;
+    display: flex;
+    padding-bottom: 30px;
+}
+#second > #right{
+    height: 100%;
+    width: 50%;
+}
+#second > #left > #insidebox >#firstp >p{
+    padding-top: 100px;
+    color: #32462f;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+#second > #left > #insidebox >#secondp> p{
+    color: #32462f;
+    font-size: 25px;
+    text-align: center;
+    /* width: 700px; */
+        padding-bottom: 30px;
+}#second > #left > #insidebox >#thirdp> p{
+    color: #32462f;
+    font-size: 25px;
+    text-align: center;
+    width: 500px;
+    padding-bottom: 30px;
+}
+#second > #left > #insidebox > button{
+    color: #32462f;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #d1d1aa;
+    border-style: none;
+    height: 40px;
+    width: 200px;
+    border: 2px solid #32462f;
+    margin-left: 150px;
+}
+#second >#left{
+    height: 100%;
+    width: 50%;
+    background-color: #d1d1aa;
+}
+#third{
+    height: 654px;
+    background-color: white;
+    width: auto;
+    display: flex;
+    padding-bottom: 30px;
+}
+#third > #left{
+    height: 100%;
+    width: 50%;
+}
+#third > #right{
+    height: 100%;
+    width: 50%;
+    background-color: #32462f;
+}
+#third > #right > #insidebox >#firstp >p{
+    padding-top: 50px;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+#third > #right > #insidebox >#secondp> p{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 30px;
+}#third > #right > #insidebox > button{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #32462f;
+    border-style: none;
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 150px;
+}
+#fourth{
+    height: 654px;
+    background-color: white;
+    width: auto;
+    display: flex;
+    padding-bottom: 30px;
+}
+#fourth > #left{
+    height: 100%;
+    width: 50%;
+    background-color: #32462f;
+}
+#fourth > #right{
+    height: 100%;
+    width: 50%;
+}
+#fourth> #left > #insidebox >#firstp >p{
+    padding-top: 50px;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+#fourth > #left > #insidebox >#secondp> p{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 30px;
+}#fourth > #left > #insidebox > button{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #32462f;
+    border-style: none;
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 150px;
+}
+#fifth{
+    height: 654px;
+    background-color: #006242;
+    width: auto;
+    display: flex;
+}#fifth > #left{
+    height: 100%;
+    width: 50%;
+}
+#fifth > #right{
+    height: 100%;
+    width: 50%;
+}#fifth> #right > #insidebox >#firstp >p{
+    padding-top: 50px;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+#fifth > #right > #insidebox >#secondp> p{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 30px;
+}#fifth > #right > #insidebox > button{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #006242;
+    border-style: none;
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 150px;
+}
+#sixth{
+    height: 300px;
+    width: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+#sixth > #inside{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 300px;
+}
+#seventh{
+    height: 400px;
+    width: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#seventh > #fi{
+    width: 14%;
+    height: 100%;
+    color: gray;
+    padding-left: 50px;
+    font-size: 20px;
+}
+#seventh > #se{
+    width: 14%;
+    height: 100%;
+    color: gray;
+    padding-left: 50px;
+    font-size: 20px;
+}
+#seventh > #th{
+    width: 14%;
+    height: 100%;
+    color: gray;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#seventh > #fo{
+    width: 14%;
+    height: 100%;
+    color: gray;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#seventh > #fif{
+    width: 14%;
+    height: 100%;
+    color: gray;
+    padding-left: 50px;
+    font-size: 20px;
+
+}
+
+#seventh > #six{
+    width: 14%;
+    height: 100%;
+}
+#seventh > #sev{
+    width: 14%;
+    height: 100%;
+}
+#footer{
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+#footer > #last{
+    padding-top: 30px;
+}
